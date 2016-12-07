@@ -29,11 +29,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <div class='row'>
-  <div class='col-md-3'>
+  <div class='col-md-3 hide'>
     <?//= StockView::widget();?>
-    <?= SideMenu::widget(['model' => $model_child,'guid' => $guid]); ?>
+    <?//= SideMenu::widget(['model' => $model_child,'guid' => $guid]); ?>
   </div>
-    <div class='col-md-9'>
+    <div class='col-md-12'>
         <h1 style='margin-top:0px'><?= Html::encode($this->title) ?></h1>
 
 

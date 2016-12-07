@@ -31,8 +31,9 @@ AppAsset::register($this);
       <div class="col-md-6">
         <a href="/"><img src="/images/acm-world-logo.png"></a>
       </div>      
-      <div class="col-md-6 text-right">
-        <span class="roistat-phone">8 (831) 423-91-81</span><br><span> Пн-Вс 8:00-20:00</span>
+      <div class="col-md-6 text-right header-contact">
+        <span class="header-phone">Телефон - 8 (831) 283-96-99</span><br>
+        <span class='header-time'>Режим работы - Пн-Пт 9:00-18:00</span>
       </div>              
     </div>
 
@@ -45,21 +46,22 @@ AppAsset::register($this);
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav ru-navbar">
-
+        
+        <li class="<?= !isset($_GET['id']) ? "active" : ""?>">
+        <?= Html::a('Главная', '/');?>
+        
+        </li>
 
         <li class="<?= isset($_GET['id']) && $_GET['id'] == "uborka-pomesheniy" ? "active" : ""?>">
         <?= Html::a('Уборка помещений', ['pages/content', 'id' => 'uborka-pomesheniy' ]);?>
         
         </li>
 
-        <li class="<?= isset($_GET['id']) && $_GET['id'] == "moika-katerov" ? "active" : ""?>">
-        <?= Html::a('Мойка катеров', ['pages/content', 'id' => 'moika-katerov' ]);?>
-
-        </li>
 
 
-        <li class="<?= isset($_GET['id']) && $_GET['id'] == "himchistka-mebeli" ? "active" : ""?>">
-        <?= Html::a('Химчистка мебели', ['pages/content', 'id' => 'himchistka-mebeli' ]);?>
+
+        <li class="<?= isset($_GET['id']) && $_GET['id'] == "himchistka-mebeli-i-kovrov" ? "active" : ""?>">
+        <?= Html::a('Химчистка мебели и ковров', ['pages/content', 'id' => 'himchistka-mebeli-i-kovrov' ]);?>
         
         </li>
 
@@ -68,10 +70,7 @@ AppAsset::register($this);
         
         </li>
 
-        <li class="<?= isset($_GET['id']) && $_GET['id'] == "himchistka-kovrov" ? "active" : ""?>">
-        <?= Html::a('Химчистка ковров', ['pages/content', 'id' => 'himchistka-kovrov' ]);?>
-       
-        </li>
+
 
         <li class="<?= isset($_GET['id']) && $_GET['id'] == "rabota-s-urlicami" ? "active" : ""?>">
 
@@ -81,10 +80,7 @@ AppAsset::register($this);
 
 
 
-        <li class="<?= Yii::$app->controller->id == "news" ? "active" : "";?>">
-          <?= Html::a('Новости',['news/index']);?>
-       
-        </li>
+
 
         <li class="<?= Yii::$app->controller->action->id == "contact" ? "active" : "";?>">
             <?= Html::a('Контакты',['site/contact']);?>
@@ -190,8 +186,8 @@ AppAsset::register($this);
     <div class="footer">
         <div class="informational">
 
-           <p>Русуборка © <?= date('Y');?></p>
-           <p>Все цены, указанные на сайте приведены как справочная информация и не являются публичной офертой, определяемой положениями статьи 437 Гражданского кодекса Российской Федерации имогут быть изменены в любое время без предупреждения.</p>
+           <p>All Clean Management © <?= date('Y');?></p>
+           
 
         </div>
 

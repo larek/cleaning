@@ -1535,7 +1535,7 @@ a.btn-list2v2 {
 
 
 .ru-navbar>li>a {
-    padding: 14px 7px 14px 7px;
+    padding: 14px 22px;
     font-size: 13px;
 }
 
@@ -1549,4 +1549,10 @@ a.btn-list2v2 {
 .header-top{
     width:960px;
     margin: 20px auto;
+}
+
+.header-contact {
+    font-size: 20px;
+    padding-top: 20px;
+    color: #00074a;
 }
