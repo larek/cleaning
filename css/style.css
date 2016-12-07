@@ -1545,3 +1545,8 @@ a.btn-list2v2 {
     height: 70px;
     display: table;
 }
+
+.header-top{
+    width:960px;
+    margin: 20px auto;
+}

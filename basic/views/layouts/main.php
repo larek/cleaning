@@ -27,26 +27,14 @@ AppAsset::register($this);
 
 <div class="wraper">
 <div class="header">
-
-        <div class="header-top-container">
-            <div class="header-top">
-                <h1 id="logo"><a href="/"><img src="/images/logo.png" alt="logo" style="vertical-align: middle; padding:0px 0px 0 0;width: 118px;"> <span>Профессиональная уборка офисов и квартир</span></a></h1>
-                <div class="quick-access">
-                    <div class="shop-access">
-                        <ul>
-
-                        </ul>
-
-                      <div class="account-phone">&nbsp;<span class="roistat-phone">8 (831) 423-91-81</span><br><div><span> Пн-Вс 8:00-20:00</span></div></div>
-
-
-                    </div>
-                </div>
-                <div class="languages">
-
-                </div>
-            </div>
-        </div>
+    <div class="row header-top">
+      <div class="col-md-6">
+        <a href="/"><img src="/images/acm-world-logo.png"></a>
+      </div>      
+      <div class="col-md-6 text-right">
+        <span class="roistat-phone">8 (831) 423-91-81</span><br><span> Пн-Вс 8:00-20:00</span>
+      </div>              
+    </div>
 
 <div class='bootstrap-menu-wrapper'> <!--bootstrap menu wrapper-->
         <!-- bootstrap menu -->
