@@ -5,7 +5,7 @@ use app\components\CalculatorView;
 use yii\helpers\Html;
 
 $this->registerJsFile('/js/site.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
-$this->title = 'Русуборка. Клининговая компания в Нижнем Новгороде';
+$this->title = 'All Clean Management. Клининговая компания в Нижнем Новгороде';
 ?>
 
 <div class='row' style='height:320px;'>
