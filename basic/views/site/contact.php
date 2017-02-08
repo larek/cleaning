@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = 'Контакты';
     <span itemprop="addressLocality">Нижний Новгород</span>,
   </div>
   Телефон:<span itemprop="telephone">+7 831 283–96–99</span>,<br>
-  Электронная почта: <span itemprop="email">acm-clean@mail.ru</span>
+  Электронная почта: <span itemprop="email">client.acm-world@mail.ru</span>
 </div>
 
 
