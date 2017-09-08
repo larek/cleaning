@@ -191,16 +191,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.3.7",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/Inputmask.git",
-                "reference": "9835731cb78cac749734d94a1cb5bd70da4d3b10"
+                "reference": "791d84990c4a98df1597e9d155be53a3725805dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/9835731cb78cac749734d94a1cb5bd70da4d3b10",
-                "reference": "9835731cb78cac749734d94a1cb5bd70da4d3b10",
+                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/791d84990c4a98df1597e9d155be53a3725805dd",
+                "reference": "791d84990c4a98df1597e9d155be53a3725805dd",
                 "shasum": ""
             },
             "require": {
@@ -530,16 +530,16 @@
         },
         {
             "name": "tinymce/tinymce",
-            "version": "4.6.4",
+            "version": "4.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinymce/tinymce-dist.git",
-                "reference": "1e499f03e719106216fdd34859f8f35a2f8a68a2"
+                "reference": "50b5a77af8ef1a1da362e60ad32ace4131e2dbf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/1e499f03e719106216fdd34859f8f35a2f8a68a2",
-                "reference": "1e499f03e719106216fdd34859f8f35a2f8a68a2",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/50b5a77af8ef1a1da362e60ad32ace4131e2dbf0",
+                "reference": "50b5a77af8ef1a1da362e60ad32ace4131e2dbf0",
                 "shasum": ""
             },
             "type": "component",
@@ -572,7 +572,7 @@
                 "tinymce",
                 "wysiwyg"
             ],
-            "time": "2017-06-13T12:49:51+00:00"
+            "time": "2017-08-30T12:11:58+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -903,29 +903,31 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.6.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3|^7.0"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
                 "ext-intl": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
             "extra": {
-                "branch-alias": []
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -947,7 +949,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-04-29T12:21:54+00:00"
+            "time": "2017-08-15T16:48:10+00:00"
         },
         {
             "name": "phpspec/php-diff",
@@ -1035,16 +1037,16 @@
         },
         {
             "name": "yiisoft/yii2-debug",
-            "version": "2.0.9",
+            "version": "2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9"
+                "reference": "372fbf0d47303b7d68275d6720935e5116915418"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9",
-                "reference": "647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/372fbf0d47303b7d68275d6720935e5116915418",
+                "reference": "372fbf0d47303b7d68275d6720935e5116915418",
                 "shasum": ""
             },
             "require": {
@@ -1078,7 +1080,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-02-21T10:30:50+00:00"
+            "time": "2017-09-05T23:21:05+00:00"
         },
         {
             "name": "yiisoft/yii2-faker",
